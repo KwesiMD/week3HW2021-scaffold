@@ -24,7 +24,9 @@ body {
     text-align: center;
 }
 /* TODO: this container class in the center of the screen using flex-direction column */
-.container {
+.container { 
+    display: flex;
+    flex-direction:column;
     align-items: center;
     margin-top: 8px;
 }
@@ -121,7 +123,10 @@ Section - Modal
 /* Modal Content/Box */
 /* TODO: Style this and make it look better */
 .modal-content {
-    
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    display: none;
     margin: 5% auto;
     width: 80%;
 }
